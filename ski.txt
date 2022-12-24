@@ -1,1 +1,1 @@
-(S (S K I))
+(S (S K I x x yy))

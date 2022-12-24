@@ -1,0 +1,9 @@
+expression = combinator | identifier
+identifier = x | y
+combinator = 'S' | 'K' | 'I' | ( expression )
+
+
+%%%%%
+I x = x
+K x y = x
+S x y z = xz(yz)
